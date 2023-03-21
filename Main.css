@@ -1,0 +1,38 @@
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+hr {
+  height: 5px;
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: azure;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover,
+a:active {
+  color: #eee;
+}
+table,
+tr,
+th,
+td,
+caption {
+  border: 2px solid #fff;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}

@@ -1,50 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Webpage</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="Main.css" />
+  </head>
+  <body>
+    <header>
+      <hr />
+      <h1>CIT Course HTML CSS JS</h1>
+      <hr />
+    </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Webpage</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<style>
-  /* a{
-    text-decoration: none;
-    padding: 10px;
-    border: 2px solid black;   
-  } */
-</style>
-<body>
-  <h1>ขนาดตัวอักษร H1</h1>
-  <h2>ขนาดตัวอักษร H2</h2>
-  <h3>ขนาดตัวอักษร H3</h3>
-  <h4>ขนาดตัวอักษร H4</h4>
-  <h5>ขนาดตัวอักษร H5</h5>
-  <h6>ขนาดตัวอักษร H6</h6>
-  <!-- p * จำนวน > loremจำนวน Ex. p*2>lorem50 -->
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum, quos cupiditate id odio enim nobis deserunt sit
-    fugiat asperiores dolores aspernatur voluptates placeat architecto error. Iusto velit delectus provident?</p>
-  <p>Incidunt dolorem eaque nostrum voluptatibus. Minima cumque nostrum beatae quibusdam eaque qui cupiditate? Nobis
-    asperiores, quia consequatur fugit voluptatem a expedita, ipsa possimus voluptates eius hic cum vero quas
-    aspernatur.</p>
-  <h2>Manu Bar</h2>
-  <ul>
-    <li>One </li>
-    <li>Two </li>
-    <li>Three </li>
-    <li>Four </li>
-    <li>Five </li>
-  </ul>
-  <dl>
-    <dt>Lorem, ipsum dolor.</dt>
-    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
-  </dl>
- <h2>Link</h2>
-  <a href="https://www.Google.com/" target="_blank">Google</a>
-  <a href="mailto:651463002@crru.ac.th">Email</a>
-  <a href="tel:0123456789">Tel.</a>
-  <a href="./About.html">Go to About</a>
-</body>
+    <nav>
+      <h2>Manu Bar</h2>
+      <ul>
+        <li>
+          <a href="#one">One</a>
+        </li>
+        <li>
+          <a href="#two">Two</a>
+        </li>
+        <li>
+          <a href="#three">Three</a>
+        </li>
+        <li>
+          <a href="#four">Four</a>
+        </li>
+        <li>
+          <a href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
+    <section id="one">
+      <h2>Section One</h2>
+      <!-- p * จำนวน > loremจำนวน Ex. p*2>lorem50 -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum, quos
+        cupiditate id odio enim nobis deserunt sit
+      </p>
+      <p>
+        Incidunt dolorem eaque nostrum voluptatibus. Minima cumque nostrum
+        beatae quibusdam eaque qui cupiditate? Nobis asperiores, .
+      </p>
+    </section>
+
+    <section id="two">
+      <h2>Section Two</h2>
+      <dl>
+        <dt>Lorem, ipsum dolor.</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
+      </dl>
+    </section>
+    <section id="three">
+      <h2>Section Three</h2>
+      <table>
+        <caption>
+          Lerning Course Schedule
+        </caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Content</th>
+            <th>Dificulty</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Tuseday</th>
+            <td>HTML5</td>
+            <td rowspan="2">Easy</td>
+          </tr>
+          <tr>
+            <th>Wednesday</th>
+            <td>CSS3</td>
+          </tr>
+          <tr>
+            <th>Thursday</th>
+            <td>JavaScript</td>
+            <td rowspan="2">Normal</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>BootStrap</td>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <td>Final Project</td>
+            <td>Very Easy</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              This is Lerning content of HTML5 Course schedule in 5 days
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section id="four">
+      <h2>Section Four</h2>
+      <h3>2 Best thing Do in Chaing Rai</h3>
+      <ul>
+        <li>
+          <h4>Take a tour Around Wat RougKhun</h4>
+          <address>off Hignway (Phahonyothihn road) 15 kilometers</address>
+          <figure>
+            <img
+              src="Images/white_temple.jpg"
+              alt="Wat RougKhun"
+              width="400"
+              height="250"
+              loading="lazy"
+            />
+            <figcaption>The White temple</figcaption>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus
+            adipisci maxime optio odit placeat minima cumque possimus facilis
+            unde!
+          </p>
+        </li>
+        <li>
+          <h4>Visit Baan Dam Museum</h4>
+          <address>off Hignway (Phahonyothihn road) 15 kilometers</address>
+          <figure>
+            <img
+              src="Images/black_house.jpg"
+              alt="Ban Dam"
+              width="400"
+              height="250"
+              loading="lazy"
+            />
+            <figcaption>The Ban Dam</figcaption>
+          </figure>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            amet, dolor consequuntur saepe deleniti vero! Quaerat qui tempora
+            harum quis?
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <h2>Link</h2>
+      <a href="https://www.Google.com/" target="_blank">Google</a>
+      <a href="mailto:651463002@crru.ac.th">Email</a>
+      <a href="tel:0123456789">Tel.</a>
+      <a href="./About.html">Go to About</a>
+    </footer>
+  </body>
 </html>
